@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+.inner {
+  display: flex;
+  flex-wrap: wrap;
+  width: 800px;
+}
+
+div {
+  width: 100px;
+  height: 100px;
+}
+
+.box-black {
+  width: 100px;
+  height: 100px;
+  background-color: #000;
+}
+
+.box-white {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+}
